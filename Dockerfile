@@ -1,4 +1,4 @@
-FROM openshift/httpd:latest
+FROM registry.redhat.io/rhel8/httpd-24:latest
  
 # Define o diretório de trabalho
 WORKDIR /var/www/html
